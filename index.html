@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>SHOPPING CART</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+        <script type="text/javascript" src="jsfile.js"></script>
+       
+    </head>
+    <body>
+    
+
+<div class="shopping">
+
+
+
+  <h1 class="title">shopping bag total: <span id="sum" class="price"  >0</span></h1>
+
+
+<!--Product1-->
+<div class="item">
+
+    <div class="buttonbar">
+        <button type="image" class="like-btn" ></button>
+        <button type="image" class="delete-btn" ></button>  
+        </div>
+    
+
+<div class="image">
+
+<img src="item-1.jpg" alt="">
+
+</div>
+
+<div class="description">
+        <span class="desc1">Spadri</span>
+        
+        <span class="desc2">White</span>
+      </div>
+   
+      <div class="quantity">
+
+          
+          <input type="button" value="-"   onclick="substract1('quantite');">
+          <input type="text" size="8" value="0" id="quantite" onkeypress="return isNumberKey(event);"> 
+          <input type="button" value="+"  onclick="add1('quantite');">
+           
+
+
+
+      </div>
+  
+     
+      
+    
+     
+        
+        <span id="ttc1" class="prix"> </span>
+        
+        
+      
+   
+    </div>
+ 
+   
+
+
+    <!-- Product #2 -->
+    <div class="item">
+        <div class="buttonbar">
+            <button type="image" class="like-btn" onClick=""></button>
+            <button type="image" class="delete-btn" onClick=""></button>  
+            </div>
+            
+      <div class="image">
+        <img src="sneakers.jpg" alt=""/>
+      </div>
+   
+      <div class="description">
+        <span class="desc1">Sneakers</span>
+        
+        <span class="desc2">White</span>
+      </div>
+   
+      <div class="quantity">
+
+          <input type="button" value="-"  onclick="substract2('quantite2');" >
+          <input type="text" size="8" value="0" id="quantite2" onkeypress="return isNumberKey(event);"> 
+          <input type="button" value="+"   onclick="add2('quantite2');">
+         
+      </div>
+   
+      <span id="ttc2" class="prix"> </span>
+    </div>
+    
+     
+        
+    
+      
+      
+    
+    
+ 
+   
+    <!-- Product #3 -->
+    <div class="item">
+        <div class="buttonbar">
+            <button type="image" class="like-btn" onClick=""></button>
+            <button type="image" class="delete-btn" onClick=""></button>  
+            </div>
+   
+      <div class="image">
+        <img src="scarf.jpg" alt="" />
+      </div>
+   
+      <div class="description">
+        <span class="desc1">Scarf</span>
+        
+        <span class="desc2">Brown</span>
+      </div>
+   
+      <div class="quantity">
+          <input type="button" value="-"   onclick="substract3('quantite3');" >
+          <input type="text" size="8" value="0" id="quantite3" name="quantite3"  > 
+          <input type="button" value="+"  onclick="add3('quantite3');">
+
+      </div>
+  
+      
+      <div>
+     
+        
+        <span id="ttc3" class="prix"> </span>
+        
+        
+      
+      
+      </div>
+     
+    </div>
+
+
+  </div>
+
+  
+  
+  ​
+  
+  </div>
+
+ 
+
+ 
+
+  </body>
+  </html>
